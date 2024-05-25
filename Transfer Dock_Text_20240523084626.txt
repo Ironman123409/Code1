@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+
+  int x=2;
+Printf ("%i\n",x);
+
+float y=2.1;
+Printf ("%f\n",y);
+
+Char z="A";
+Printf ("%c\n",z);
+
+  return 0;
+}
