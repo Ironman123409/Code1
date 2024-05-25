@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+
+char inputuser[]="DEV";
+
+  printf("Enter your name:\n");
+fgets (inputuser,sizeof(inputuser),stdin);
+  
+printf ("user name:%s\n",inputuser);
+
+printf ("user name in reverse order:%c%c%c",inputuser[2],inputuser[1],inputuser [0]);
+  
+  //output VED
+  
+  return 0;
+}
