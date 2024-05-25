@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+//let x = userinput :-
+
+  int x[]={1,2,3,4};
+  
+  printf ("Enter digits:\n");
+  fgets (x,sizeof(x),stdin);
+  
+  int sum =x[0]+(x[1])+(x[2])+(x[3]);
+  
+  printf ("sum of digits:%d",sum);
+  
+  //output:-sum of digits-10
+  
+  return 0;
+}
