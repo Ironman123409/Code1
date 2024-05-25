@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+
+  int x=5;
+  int* ptr=&x;
+ printf ("memoryaddress:%p\n",ptr);
+  printf ("first element value:%d",*(ptr));
+ return 0;
+}
