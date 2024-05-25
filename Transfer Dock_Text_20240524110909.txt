@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+int x=5;
+printf ("memory address of x-%p\n",&x);
+  
+float y=6.5;
+printf ("memory address of y-%p\n",&y);
+  
+char z="A";
+printf ("memory address of z-%p",&z);
+  
+  return 0;
+}
