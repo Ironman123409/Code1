@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+  //let user input= x 
+  int x=5;
+  if(x>0){
+  printf ("Number is positive.\n");
+  }
+  else{
+  printf ("Number is nagetive.\n");
+  }
+  //output=Number is positive.
+  
+  //while let user input=y
+  int y=-5;
+  if (y<0){
+  printf ("Number is nagetive.");
+  }
+  else{
+  printf ("Number is positive.");
+  }
+  // output=Number is nagetive.
+  return 0;
+}
